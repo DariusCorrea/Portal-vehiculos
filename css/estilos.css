@@ -228,7 +228,7 @@ a{
 
 footer{
     background-color: black;
-    height: 300px;
+    height: 400px;
 }
 
 span{
@@ -237,13 +237,8 @@ span{
 }
 
     .header__menu{
-    background-color: rgba(204, 202, 202, 0.24);
+    background-color: rgba(33, 0, 0, 0);
     
-    height: 50px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between; 
-    flex-direction: row;
 
 }
 
@@ -285,7 +280,7 @@ span{
 
 .nav__bar2 a:hover{
 transform: scale(1.15, 1.15);
-transition: all 1s;
+transition: all 0.3s;
 }
 
 
@@ -295,8 +290,7 @@ transition: all 1s;
     display: grid;
     grid-template-columns: 30% 70%;
     grid-template-rows: auto;
-    grid-column: 40px;
-    grid-row: 34px;
+column-gap: 10px;
 padding: 20px;
     margin: 5%;
     border-radius: 15px;
@@ -1725,4 +1719,50 @@ main{
         background-size: cover;
         display: grid;
     }
+}
+
+
+
+.instagramcuadro1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    width: auto;   
+    height: auto;
+    margin: 2px;
+    justify-content: center;
+    row-gap: 2px;
+    column-gap: 10px;
+    padding: 20px;
+}
+
+.iframeclass{
+    width: 100%;
+    border-radius: 15px;
+    margin: 1px;
+    height: 450px;
+}
+
+
+.iframeclass:hover{
+    transform: scale(1.02,1.02);
+    transition: 1s;
+}
+
+.imagen__nav{
+    height: 50px;
+
+}
+
+.navbar-toggler{
+    padding: 3px;
+    margin: 13px;
+}
+
+.nav-link{
+    color: black;
+}
+
+html{
+    scroll-behavior: smooth;
 }
