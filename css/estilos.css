@@ -22,6 +22,11 @@ transition: 2s;
 border-radius: 30px;
 
 }
+a{
+    list-style: none;
+    text-decoration: none;
+    color: white;
+}
 h1{
     font-size: 60px;
     align-self: center;
@@ -225,17 +230,10 @@ p{
 }
 
 
-a{
-    color: black;
-    font-family: 'Albert Sans', sans-serif;
-    font-size: 20px;
-    text-decoration: none;
-
-}
 
 footer{
     background-color: black;
-    height: 400px;
+    height: auto;
 }
 
 span{
@@ -806,7 +804,8 @@ main{
         background-image: url(../resources/autoprincipal.jpg);
         background-size: cover;
         background-position: center;
-        height: 100vh;
+        height: auto;
+        width: auto;
         transition: 2s;
         border-radius: 30px;
     }
@@ -1526,9 +1525,10 @@ main{
         background-size: cover;
         justify-content: center;
         background-position: center;
-        height: 100vh;
+        align-items: center;
+        height: auto;
         transition: 2s;
-        border-radius: 30px;
+        border-radius: 10px;
     }
     .header__menu{
         background-color: rgb(59, 59, 59);
@@ -1833,7 +1833,7 @@ main{
 }
 
 .navbar-brand{
-    padding: 10px;
+    padding: 30px;
 }
 
 .nav-link{
@@ -1843,3 +1843,28 @@ main{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
+.fotter{
+display: grid;
+height: 100px;
+justify-content: center;
+grid-template-columns: auto;
+grid-template-rows:60% 30%;
+padding:3px;
+row-gap: 3px;
+column-gap: 10px;
+align-items: center;
+}
+
+.derechos__footer{
+    
+    display: flex;
+    justify-content: center;
+}
+
+
+.footer{
+    display: inline;
+    justify-content: center;
+    padding: 20px;
+    align-self: center;
+}
