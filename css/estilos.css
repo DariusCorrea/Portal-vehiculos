@@ -242,7 +242,7 @@ span{
 }
 
     .header__menu{
-    background-color: rgba(158, 158, 158, 0.504);
+    background-color: black;
     height: 55px;
     
 
@@ -1831,13 +1831,21 @@ main{
     height: 50px;
 
 }
+.nav-item a:hover{
+    color: white;
+    transform: scale(1.05, 1.05);
+    transition: 1s;
+    }
 
 .navbar-brand{
+    color: white;
     padding: 30px;
 }
-
+.navbar-brand:hover{
+    color: white        ;
+}
 .nav-link{
-    color: black;
+    color: white;
     font-size: 25px;
     text-shadow: 54px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -1868,3 +1876,5 @@ align-items: center;
     padding: 20px;
     align-self: center;
 }
+
+ 
