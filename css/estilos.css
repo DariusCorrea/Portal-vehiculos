@@ -14,7 +14,7 @@
 display: grid;
 grid-template-columns: 1fr 2fr 1fr;
 grid-template-rows:  1fr 1fr;
-background-image: url(../resources/h1.jpg);
+background-image: url(../resources/autoprincipal.jpg);
 background-size: cover;
 background-position: center;
 height: 100vh;
@@ -23,11 +23,18 @@ border-radius: 30px;
 
 }
 h1{
-    font-size: 40px;
+    font-size: 60px;
+    align-self: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: white;
 
 }
 
+.subtittle__main{
+    align-self:flex-start;
+    display: flex;
+    justify-content: start;
+}
 
 .titulo1{
     color: white;
@@ -237,7 +244,8 @@ span{
 }
 
     .header__menu{
-    background-color: rgba(33, 0, 0, 0);
+    background-color: rgba(158, 158, 158, 0.504);
+    height: 55px;
     
 
 }
@@ -482,7 +490,7 @@ padding: 20px;
     }
 
 main{
-    background-image: url(../resources/fondoea.jpg);
+    background-image: url(../resources/fondoactua.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -729,7 +737,7 @@ main{
         }
     
     main{
-        background-image: url(../resources/fondoea.jpg);
+        background-image: url(../resources/fondo);
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
@@ -756,7 +764,7 @@ main{
         }
     
     main{
-        background-image: url(../resources/fondoea.jpg);
+        background-image: url(../resources/fondoactua.jpg);
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
@@ -765,6 +773,43 @@ main{
 }
 
 @media (min-width:320px) and (max-width:575px){
+    .imagen__nav{
+        height: 50px;
+    
+    }
+    
+    .navbar-brand{
+        padding: 10px;
+    }
+    
+    .nav-link{
+        color: black;
+        font-size: 25px;
+        text-shadow: 54px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    
+    
+    h1{
+        display: flex;
+        font-size: 20px;
+        justify-content: flex-start;
+        align-self: center;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: white;
+    
+    }
+    .main__principal{
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows:  1fr;
+        background-image: url(../resources/autoprincipal.jpg);
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
+        transition: 2s;
+        border-radius: 30px;
+    }
     .grid__area{
         display: grid;
         justify-content: center;
@@ -900,7 +945,6 @@ main{
 
 
     .header__menu{
-        background-color: rgba(204, 202, 202, 0.24);
         height: auto;
         display: flex;
         align-items: center;
@@ -1136,7 +1180,7 @@ main{
         }
     
     main{
-        background-image: url(../resources/fondoea.jpg);
+        background-image: url(../resources/fondoactua.jpg);
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
@@ -1439,8 +1483,7 @@ main{
         }
     
     main{
-        background-image: url(../resources/fondoea.jpg);
-        background-repeat: no-repeat;
+        background-image: url(../resources/fondoactua.jpg);
         background-position: center;
         background-size: cover;
         display: grid;
@@ -1448,13 +1491,48 @@ main{
 }
 
 @media (min-width:320px) and (max-width:575px){
-    .header__menu{
-        background-color: rgba(204, 202, 202, 0.24);
-        height: auto;
+    .imagen__nav{
+        height: 50px;
+    
+    }
+    
+    .navbar-brand{
+        padding: 10px;
+    }
+    
+    .nav-link{
+        color: black;
+        font-size: 25px;
+        text-shadow: 54px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    
+    
+    h1{
         display: flex;
+        justify-content: flex-start;
+        align-self: auto;
         align-items: center;
-        flex-direction: column;
-        width: 100%;
+        font-size: 20px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: white;
+    
+    }
+    .main__principal{
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows:  auto;
+        background-image: url(../resources/autoprincipal.jpg);
+        background-size: cover;
+        justify-content: center;
+        background-position: center;
+        height: 100vh;
+        transition: 2s;
+        border-radius: 30px;
+    }
+    .header__menu{
+        background-color: rgb(59, 59, 59);
+         
     
     }
     
@@ -1685,7 +1763,7 @@ main{
         }
     
     main{
-        background-image: url(../resources/fondoea.jpg);
+        background-image: url(../resources/fondoactua.jpg);
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
@@ -1713,7 +1791,7 @@ main{
         }
     
     main{
-        background-image: url(../resources/fondoea.jpg);
+        background-image: url(../resources/fondoactua.jpg);
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
@@ -1754,11 +1832,14 @@ main{
 
 }
 
-.navbar-toggler{
-    padding: 3px;
-    margin: 13px;
+.navbar-brand{
+    padding: 10px;
 }
 
 .nav-link{
     color: black;
+    font-size: 25px;
+    text-shadow: 54px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+
