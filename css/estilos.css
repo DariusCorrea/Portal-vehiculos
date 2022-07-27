@@ -806,6 +806,10 @@ width: 100%;
 }
 
 @media (min-width:320px) and (max-width:575px){
+    .boton__prueba{
+        display: flex;
+        justify-content: center;
+    }
 .subtittle__main{
     font-size: 30px;
     display: flex;
