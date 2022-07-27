@@ -9,6 +9,7 @@
     font-size: 30px;
     color: white;
     align-self: center;
+    
 }
 .main__principal{
 display: grid;
@@ -230,10 +231,16 @@ p{
 }
 
 
+body{
+    display: flex;
+flex-direction: column;
+height: 100vh;
+}
 
 footer{
     background-color: black;
     height: auto;
+    margin-top: auto;
 }
 
 span{
@@ -488,6 +495,14 @@ padding: 20px;
     }
 
 main{
+    
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: grid;
+}
+
+.test2{
     background-image: url(../resources/fondoactua.jpg);
     background-repeat: no-repeat;
     background-position: center;
@@ -495,8 +510,28 @@ main{
     display: grid;
 }
 
+body{
+    background-image: url(../resources/fondoactua.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: grid;
+}
 
-
+.main__contacto{
+background-color: black;
+border-radius: 10px;
+opacity: 70%;
+width: 50%;
+padding: 1%;
+}
+.test3{
+    
+    display: flex;
+justify-content: center;
+align-items: center;
+width: 100%;
+}
 
 @media (min-width: 576px) and (max-width:992px){
     .header__menu{
@@ -771,17 +806,75 @@ main{
 }
 
 @media (min-width:320px) and (max-width:575px){
+.subtittle__main{
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+}
+.test2{    height: auto;
+    width: auto;
+}
+    .texto__main{
+        display: flex;
+        justify-content: center;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 15px;
+        color: white;
+        align-self: center;
+        padding: 30px;
+
+        
+    }
+    .padding__footer{
+        display: flex;
+        justify-content: center;
+        height: auto;
+    width: auto;
+    
+    }
+    .fotter{
+        display: none;
+        height: auto;
+        justify-content: center;
+        grid-template-columns: auto;
+        grid-template-rows:auto;
+        align-items: center;
+        }
+    .main__contacto{
+    
+        background-color: black;
+        border-radius: 10px;
+        opacity: 80%;
+        width: auto;
+        padding: auto;
+        height: auto;
+        }
+        .test3{
+            height: auto;
+            width: auto;
+            display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    
+        }
+        .footer{
+            width: auto;
+            height: auto;
+        }
     .imagen__nav{
-        height: 50px;
+
+        height: auto;
     
     }
     
     .navbar-brand{
-        padding: 10px;
+        padding: auto;
     }
     
     .nav-link{
-        color: black;
+        width: auto;
+        color: white;
         font-size: 25px;
         text-shadow: 54px;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -807,7 +900,7 @@ main{
         height: auto;
         width: auto;
         transition: 2s;
-        border-radius: 30px;
+        border-radius: 15px;
     }
     .grid__area{
         display: grid;
@@ -819,8 +912,7 @@ main{
                         "autosblancos" 
                             "autorojo"
                             "autobordo";
-        height: 800px;
-        width: auto;
+        height: 1000px; 
     
     }
     
@@ -832,6 +924,7 @@ main{
         background-position: center;
         transition: 2s;
         overflow: hidden;
+        height: 200px;
 
         
         
@@ -909,7 +1002,7 @@ main{
         grid-template-rows: 1fr 1fr; 
     grid-template-areas: "autoazul"
                         "autoceleste";
-        height:700px;    
+        height:auto;    
         width:auto;
         column-gap: 10px;
         padding: 10px;
@@ -945,10 +1038,7 @@ main{
 
     .header__menu{
         height: auto;
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-        width: 100%;
+        width: auto;
     
     }
     
@@ -966,15 +1056,14 @@ main{
         justify-content: center;
     }
     .logo img{
-        width: 70px;
+        width: auto;
         
     }
     .nav__bar1 li{
         display: flex;
         list-style: none;
         justify-content: center;
-        padding: 20px;
-        flex-direction: column;
+    flex-direction: column;
         
     
     }
@@ -1177,15 +1266,7 @@ main{
         margin: 5%;
         border-radius: 15px;
         }
-    
-    main{
-        background-image: url(../resources/fondoactua.jpg);
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
-        display: grid;
-        width: 100%;
-    }
+
     .deportivo__esports2{
         
         display: grid;
@@ -1205,20 +1286,24 @@ main{
         margin: 5%;
         border-radius: 15px;
         }
-    
-    main{
-        background-image: url(../resources/fondoea.jpg);
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
-        display: grid;
-    }
+
 }
 
 
 
 
 @media(min-width:993px) and (max-width:1592px){
+    .fotterdiv{
+        padding: 30px;
+        display: flex;
+        justify-content: center;
+        align-self: center;
+    }
+    .derechos__footer{
+        display: flex; 
+        justify-content: center;
+        align-self: center;
+}
     .header__menu{
         background-color: rgba(204, 202, 202, 0.24);
         height: auto;
@@ -1490,6 +1575,38 @@ main{
 }
 
 @media (min-width:320px) and (max-width:575px){
+
+    .padding__footer{
+        padding: auto;
+        margin: 30px;
+        display: flex;
+        justify-content: center;
+        height: auto;
+    width: auto;
+    
+    }
+    .footernav{
+        display: inline;
+        justify-content: center;
+        padding: 20px;
+        align-self: center;
+    }
+    .fotter{
+        padding: 40px;
+        width: auto;
+        height: auto;
+        
+    }
+.footerdiv{
+    margin: 10px;
+    padding: 0px;
+    font-size: 13px;
+}
+    .derechos__footer{
+        height: auto;
+        width: auto;
+        font-size: 13px;
+    }
     .imagen__nav{
         height: 50px;
     
@@ -1500,7 +1617,7 @@ main{
     }
     
     .nav-link{
-        color: black;
+        color: white;
         font-size: 25px;
         text-shadow: 54px;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -1762,14 +1879,6 @@ main{
         border-radius: 15px;
         }
     
-    main{
-        background-image: url(../resources/fondoactua.jpg);
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
-        display: grid;
-        width: 100%;
-    }
     .deportivo__esports2{
         
         display: grid;
@@ -1790,13 +1899,7 @@ main{
         border-radius: 15px;
         }
     
-    main{
-        background-image: url(../resources/fondoactua.jpg);
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
-        display: grid;
-    }
+   
 }
 
 
@@ -1836,13 +1939,15 @@ main{
     transform: scale(1.05, 1.05);
     transition: 1s;
     }
-
+.nav-item{
+    color: white;
+}
 .navbar-brand{
     color: white;
     padding: 30px;
 }
 .navbar-brand:hover{
-    color: white        ;
+    color: white ;
 }
 .nav-link{
     color: white;
@@ -1870,11 +1975,21 @@ align-items: center;
 }
 
 
-.footer{
+.footernav{
     display: inline;
     justify-content: center;
     padding: 20px;
     align-self: center;
 }
 
- 
+.form-group{
+    color: white;
+    
+}
+
+.boton__prueba{
+    display: flex;
+    justify-content: center;
+}
+
+  

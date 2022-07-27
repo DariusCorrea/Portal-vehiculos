@@ -20,7 +20,8 @@
     <title>Proyecto comision</title>
 </head>
 
-<body><!--CONTENIDO -->
+<body> <!--CONTENIDO -->
+  <header>
   <nav class="navbar navbar-expand-lg  header__menu">
       <div class="container-fluid">
           <img  class="imagen__nav" src="resources/logitonuevo.png">
@@ -32,7 +33,7 @@
       <div class="collapse navbar-collapse" id="navbarNavDropdown">
           <ul class="navbar-nav mb-2 mb-1g-0 ms-auto d-flex">
           <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="#">Inicio</a>
+            <a class="nav-link" href="index.html">Inicio</a>
           </li>
           <li class="nav-item">
               <a class="nav-link" href="./pages/revista.html">Revista</a>
@@ -49,81 +50,80 @@
         </div>
       </div>
     </nav>
+        </header>
         
-        
-    <main><!-- Todo el contenido de la pagina que no sea header o footer -->
+        <main class="test2"><!-- Todo el contenido de la pagina que no sea header o footer -->
     
 
 
 
-      <section class="main__principal">
-        <h1 class="titulo1">Bienvenidos a BMW</h1>
-        <div class="main__boton">
-            <a href="./pages/modelos.html"><Button>Últimos modelos</Button></a> 
-</div>
-    </section>
-        <section>
-          <h2 class="subtittle__main">Vive el momento</h2>
-            <p class="texto__main">De impresionantes rutas panorámicas al bullicio de la metrópolis, de diseños asombrosos a la sostenibilidad consciente, de héroes legendarios a la avanzada tecnología de las centrales eléctricas sobre ruedas del futuro: nunca antes la movilidad había sido tan fascinante ni los avances de los automóviles tan interesantes y prometedores como ahora. En BMW.com le ofrecemos una plataforma para acercarle a este mundo fascinante y a las últimas tendencias tecnológicas y de estilo de vida. A través de historias que hablan de movilidad, patrimonio, futuro común e hitos recientes, datos, informaciones, iconos actuales y futuros de BMW, le invitamos a explorar y disfrutar del universo de BMW.</p>
-        <section class="texto__edit">
-            
-            <div class="grid__galeria">
-    
-                <div class="autoazul"></div>
-                <div class="autoceleste"></div>
-            
+          <section class="main__principal">
+            <h1 class="titulo1">Bienvenidos a BMW</h1>
+            <div class="main__boton">
+                <a href="./pages/modelos.html"><Button>Últimos modelos</Button></a> 
+    </div>
         </section>
-
+            <section>
+              <h2 class="subtittle__main">Vive el momento</h2>
+                <p class="texto__main">De impresionantes rutas panorámicas al bullicio de la metrópolis, de diseños asombrosos a la sostenibilidad consciente, de héroes legendarios a la avanzada tecnología de las centrales eléctricas sobre ruedas del futuro: nunca antes la movilidad había sido tan fascinante ni los avances de los automóviles tan interesantes y prometedores como ahora. En BMW.com le ofrecemos una plataforma para acercarle a este mundo fascinante y a las últimas tendencias tecnológicas y de estilo de vida. A través de historias que hablan de movilidad, patrimonio, futuro común e hitos recientes, datos, informaciones, iconos actuales y futuros de BMW, le invitamos a explorar y disfrutar del universo de BMW.</p>
+            <section class="texto__edit">
+                
+                <div class="grid__galeria">
+        
+                    <div class="autoazul"></div>
+                    <div class="autoceleste"></div>
+                
+            </section>
+    
+            <section>
+              
+            <div class="grid__area">
+                <div class="mazda"></div>
+                <div class="autosblancos"></div>
+                <div class="autorojo"></div>
+                <div class="autobordo"></div>
+                <div class="racing"></div>
+            </div>
+        </section>
         <section>
-          
-        <div class="grid__area">
-            <div class="mazda"></div>
-            <div class="autosblancos"></div>
-            <div class="autorojo"></div>
-            <div class="autobordo"></div>
-            <div class="racing"></div>
+
+
+          <div id="carouselExampleInterval" class="carousel slide " data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="s">
+              <img src="./resources/carrousel.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item" data-bs-interval="300">
+              <img src="./resources/carrousel2.jpg" class="d-block w-100  " alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="./resources/carrousel3.jpg" class="d-block w-100" alt="...">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
         </div>
-    </section>
-    <section>
-
-
-        <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-inner">
-          <div class="carousel-item active" data-bs-interval="s">
-            <img src="./resources/carrousel.jpg" class="d-block w-100" alt="...">
+      </section>
+    
+        </main>
+        <footer>
+          <section class="fotter"> 
+            <div class="padding__foofter">
+            <a class="footerdiv"  href="#">Twitter</a>
+            <a class="footerdiv" href="#">Facebook</a>
+          <a class="footerdiv"  href="#">Instagram</a>
           </div>
-          <div class="carousel-item" data-bs-interval="300">
-            <img src="./resources/carrousel2.jpg" class="d-block w-100  " alt="...">
+          <div class="derechos__footer">
+          <span>Todos los derechos reservados ©</span> 
           </div>
-          <div class="carousel-item">
-            <img src="./resources/carrousel3.jpg" class="d-block w-100" alt="...">
-          </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div>
-    </section>
-
-    </main>
-
-<footer>
-<section class="fotter">
-<div class="padding__footer">
-  <a class="footer"  href="#">Twitter</a>
-  <a class="footer" href="#">Facebook</a>
-<a class="footer"  href="#">Instagram</a>
-</div>
-<div class="derechos__footer">
-<span>Todos los derechos reservados ©</span></div>
-</div>
-</section>
-</footer>
+          </section>
+          </footer>
 <!-- JavaScript Bundle with Popper -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
 </body>
