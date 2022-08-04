@@ -9,13 +9,16 @@
     column-gap: 10px;
     align-items: center;
     width: 100%;
-    &__hijo{
+    background-color: antiquewhite;
+    }
+
+    .footer__hijo{
         
         display: flex;
         justify-content: center;
     }
     
-    &__class{
+    .footer__class{
         display: inline;
         justify-content: center;
         padding: 20px;
@@ -23,9 +26,8 @@
     }
     
     
-    &__derechos{
+    .footer__derechos{
     display: flex;
     justify-content: center;
     align-items: center;
-    }
     }
