@@ -38,15 +38,16 @@ color: $color-secundario;
 }
 .titulo__principal{
     color: $color-secundario;
-    font-family: $font-text;
+    font-family: 'Mouse Memoirs', sans-serif;
     text-shadow: 2px 2px 4px $color-secundario;
+    
     font-size: 50px;
     display: flex;
     align-items: center;
     justify-content: center;
     grid-column: 1/3;
     grid-row: 1/1;
-    box-shadow: 4px 4px 3px 3px;
+
     
     
 }
@@ -60,4 +61,46 @@ color: $color-secundario;
     display: flex;
     justify-content: center;
     align-self: center;
+    align-items: center;
 }
+
+.galeria__fotos{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 270px 350px 250px;
+    grid-template-rows: 250px 250px 250px;
+    background-color: rgba(0, 0, 0, 0);
+    margin: 15px;
+    border-radius: 15px;
+    grid-gap: 15px;
+
+    
+}
+.galeria__fotos img{
+object-fit: cover;
+width: 100%;
+height: 100%;
+border-radius: 10px;
+}
+.editar__mov{
+    width: 100%;
+justify-content: center;
+align-items: center;
+align-self: center;    
+}
+.imagen__primera{
+    grid-row: 1/3;
+    grid-column: 2/2;
+    
+}
+
+.imagen__ultima{
+    grid-column: 1/4;
+
+}
+
+.texto__revista{
+    font-size: 20px;
+}
+
+ 
