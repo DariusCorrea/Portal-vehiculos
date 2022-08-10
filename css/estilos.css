@@ -314,7 +314,7 @@ body {
     width: 200px; }
   .grid__galeria-space {
     display: grid;
-    grid-template-columns: 400px 400px;
+    grid-template-columns: auto;
     grid-template-rows: auto;
     height: 800px;
     align-items: center;
@@ -341,7 +341,41 @@ body {
     background-color: rgba(0, 0, 0, 0);
     margin: 5px;
     border-radius: 30px; }
-  
+  .grid__parrafo {
+    background-color: rgba(0, 0, 0, 0.593);
+    display: grid;
+    width: auto;
+    height: auto;
+    grid-template-columns: auto;
+    grid-template-rows: auto; }
+  .edit__img {
+    width: auto;
+    height: auto; }
+  .revista {
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
+    display: flex; }
+  .texto__revista {
+    font-size: 15px;
+    font-family: Arial;
+    color: white; }
+  .grid__parrafo2 {
+    background-color: rgba(0, 0, 0, 0.593);
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    padding: 30px;
+    margin: 5%;
+    border-radius: 15px; }
+  .texto__revista {
+    font-size: 13px;
+    font-family: Arial;
+    color: white; }
+  .revista3 {
+    height: 200px;
+    width: 200px;
+    border-radius: 10px; } }
 
 footer {
   position: 0;
@@ -409,7 +443,7 @@ footer {
     border-radius: 10px;
     display: flex; }
   .grid__parrafo .texto__revista {
-    font-size: 20px;
+    font-size: 13px;
     font-family: Arial;
     color: white; }
   .grid__parrafo .grid__parrafo2 {
@@ -418,17 +452,18 @@ footer {
     grid-template-columns: auto;
     grid-template-rows: auto;
     padding: 30px;
+    font-size: 1px;
     margin: 5%;
     border-radius: 15px; }
-
+ 
 .revista3 {
-  height: 200px;
-  width: 200px;
+  height: 400px;
+  width: 400px;
   border-radius: 10px; }
 
 .revista2 {
-  height: 200px;
-  width: 200px;
+  height: 400px;
+  width: 400px;
   border-radius: 10px; }
 
 .revista:hover {
@@ -448,6 +483,7 @@ footer {
   grid-template-rows: auto;
   column-gap: 10px;
   padding: 20px;
+  font-size: 12px;
   margin: 5%;
   border-radius: 15px; }
   .grid__parrafo .edit__img {
@@ -456,10 +492,11 @@ footer {
   .grid__parrafo .revista {
     height: 100%;
     width: 100%;
+    font-size: 11px;
     border-radius: 10px;
     display: flex; }
   .grid__parrafo .texto__revista {
-    font-size: 20px;
+    font-size: 14px;
     font-family: Arial;
     color: white; }
 
@@ -472,22 +509,18 @@ footer {
   margin: 5%;
   border-radius: 15px; }
   .grid__parrafo2 .texto__revista {
-    font-size: 12px;
+    font-size: 13px;
     font-family: Arial;
     color: white; }
 
-    .grid__parrafo .texto__revista {
-      font-size: 12px;
-      font-family: Arial;
-      color: white; }
 .revista3 {
   height: 200px;
   width: 200px;
   border-radius: 10px; }
 
 .revista2 {
-  height: 200px;
-  width: 200px;
+  height: 250px;
+  width: 240px;
   border-radius: 10px; }
 
 .revista:hover {
@@ -586,7 +619,7 @@ footer {
 .deportivo__esports2 {
   background-color: rgba(0, 0, 0, 0.593);
   display: grid;
-  grid-template-columns: auto;
+  grid-template-columns:auto;
   grid-template-rows: auto;
   padding: 20px;
   margin: 5%;
@@ -603,10 +636,8 @@ footer {
   grid-row: 34px;
   padding: 20px;
   margin: 5%;
-  font-size: 12px;
   border-radius: 15px; }
 
 .carousel-item {
   width: 100%;
   height: 500px; }
-}
