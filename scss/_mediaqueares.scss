@@ -1,5 +1,19 @@
   
-@media (min-width:320px) and (max-width:575px){
+@media (min-width:320px) and (max-width:576px){
+    .editar__espa{
+        grid-template-columns: auto;
+        display: grid;
+        justify-content: center;
+    }
+
+    .color__fondo{
+        background: white;
+        border-radius: 15px;
+    }
+    .boton__prueba{
+        height: auto;
+        width: auto;
+    }
     .galeria__fotos{
         display: grid;
         justify-content: center;
@@ -38,7 +52,9 @@
         height: 50px;
     
     }
-    
+    .form-group{
+        color: white;
+    }
     .nav-item{
         color: white;
     & a:hover{
@@ -61,7 +77,8 @@
     }
     .nav-link{
         color: white;
-        font-size: 25px;
+        font-size: 20px;
+        height: auto;
         text-shadow: 54px;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     }
@@ -160,33 +177,28 @@
             .header__nav{
                 background-color: rgba(0, 0, 0, 0.024);
                 height: auto;
+
                 
             }
             
-.principal {
-    margin-top: 15px;
-    border-radius: 5px;
-    padding: 50px;
-    color: $color-secundario;
-    font-family: Arial, Helvetica, sans-serif;
-    
-    }
+
 
     .texto__galeria{
         color: $color-principal;
         font-family: Arial, Helvetica, sans-serif;
     display: flex;
     width: 200px;
-  }
+}
 
 
 
     
 .grid__galeria-space{
     display: grid;
-    grid-template-columns: auto;
+    grid-template-columns: 400px 400px;
     grid-template-rows: auto;
-    height: 200px;
+    height: 800px;
+    align-items: center;
     justify-content: center;
     background-color: rgba(0, 0, 0, 0);
     margin: 5px;
@@ -200,7 +212,7 @@ h2{
 .carousel-item{
     width: 100%;
     height:auto;
-     
+    
     
 }
 .medidas{
@@ -219,5 +231,53 @@ h2{
     margin: 5px;
     border-radius: 30px;
     
+    }
+    .grid__parrafo{
+        background-color: $color-terciario;
+        display: grid;
+        width: auto;
+        height: auto;
+        grid-template-columns: auto;
+        grid-template-rows: auto;
+    }
+    .edit__img{
+        width: auto;
+        height: auto;
+        
+        }
+    .revista{
+        height: 200px;
+        width: 200px;
+        border-radius: 10px;
+        display: flex;
+    
+    }
+    .texto__revista{
+        font-size: 11px;
+        font-family: $texto-parrafo;
+        color: $color-principal;
+        }
+        
+    .grid__parrafo2{
+        background-color: $color-terciario;
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto;
+        padding: 30px;
+        margin: 5%;
+        border-radius: 30px;
+    
+    }
+
+    .texto__revista{
+        font-size: 20px;
+        font-family: $texto-parrafo;
+        color: $color-principal;
+        }
+
+    .revista3{
+        height: 200px;
+        width: 200px;
+        border-radius: 10px;
     }
 }

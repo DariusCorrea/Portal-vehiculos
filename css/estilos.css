@@ -177,7 +177,17 @@ body {
 .texto__revista {
   font-size: 20px; }
 
-@media (min-width: 320px) and (max-width: 575px) {
+@media (min-width: 320px) and (max-width: 576px) {
+  .editar__espa {
+    grid-template-columns: auto;
+    display: grid;
+    justify-content: center; }
+  .color__fondo {
+    background: white;
+    border-radius: 15px; }
+  .boton__prueba {
+    height: auto;
+    width: auto; }
   .galeria__fotos {
     display: grid;
     justify-content: center;
@@ -204,6 +214,8 @@ body {
     grid-column: 1/4; }
   .imagen__nav {
     height: 50px; }
+  .form-group {
+    color: white; }
   .nav-item {
     color: white; }
     .nav-item a:hover {
@@ -295,12 +307,6 @@ body {
   .header__nav {
     background-color: rgba(0, 0, 0, 0.024);
     height: auto; }
-  .principal {
-    margin-top: 15px;
-    border-radius: 5px;
-    padding: 50px;
-    color: black;
-    font-family: Arial, Helvetica, sans-serif; }
   .texto__galeria {
     color: white;
     font-family: Arial, Helvetica, sans-serif;
@@ -308,9 +314,10 @@ body {
     width: 200px; }
   .grid__galeria-space {
     display: grid;
-    grid-template-columns: auto;
+    grid-template-columns: 400px 400px;
     grid-template-rows: auto;
-    height: 200px;
+    height: 800px;
+    align-items: center;
     justify-content: center;
     background-color: rgba(0, 0, 0, 0);
     margin: 5px;
@@ -333,7 +340,8 @@ body {
     justify-content: center;
     background-color: rgba(0, 0, 0, 0);
     margin: 5px;
-    border-radius: 30px; } }
+    border-radius: 30px; }
+  
 
 footer {
   position: 0;
@@ -386,7 +394,7 @@ footer {
 .grid__parrafo {
   background-color: rgba(0, 0, 0, 0.593);
   display: grid;
-  grid-template-columns: 240px 240px;
+  grid-template-columns: auto;
   grid-template-rows: auto;
   column-gap: 10px;
   padding: 20px;
@@ -407,20 +415,20 @@ footer {
   .grid__parrafo .grid__parrafo2 {
     background-color: rgba(0, 0, 0, 0.593);
     display: grid;
-    grid-template-columns: 70% 30%;
+    grid-template-columns: auto;
     grid-template-rows: auto;
     padding: 30px;
     margin: 5%;
     border-radius: 15px; }
 
 .revista3 {
-  height: 400px;
-  width: 400px;
+  height: 200px;
+  width: 200px;
   border-radius: 10px; }
 
 .revista2 {
-  height: 400px;
-  width: 400px;
+  height: 200px;
+  width: 200px;
   border-radius: 10px; }
 
 .revista:hover {
@@ -436,15 +444,15 @@ footer {
 .grid__parrafo {
   background-color: rgba(0, 0, 0, 0.593);
   display: grid;
-  grid-template-columns: 30% 60%;
+  grid-template-columns: auto;
   grid-template-rows: auto;
   column-gap: 10px;
   padding: 20px;
   margin: 5%;
   border-radius: 15px; }
   .grid__parrafo .edit__img {
-    width: 400px;
-    height: 400px; }
+    width: 250px;
+    height: 250px; }
   .grid__parrafo .revista {
     height: 100%;
     width: 100%;
@@ -458,24 +466,28 @@ footer {
 .grid__parrafo2 {
   background-color: rgba(0, 0, 0, 0.593);
   display: grid;
-  grid-template-columns: 70% 30%;
+  grid-template-columns: auto;
   grid-template-rows: auto;
   padding: 30px;
   margin: 5%;
   border-radius: 15px; }
   .grid__parrafo2 .texto__revista {
-    font-size: 20px;
+    font-size: 12px;
     font-family: Arial;
     color: white; }
 
+    .grid__parrafo .texto__revista {
+      font-size: 12px;
+      font-family: Arial;
+      color: white; }
 .revista3 {
-  height: 400px;
-  width: 400px;
+  height: 200px;
+  width: 200px;
   border-radius: 10px; }
 
 .revista2 {
-  height: 400px;
-  width: 400px;
+  height: 200px;
+  width: 200px;
   border-radius: 10px; }
 
 .revista:hover {
@@ -491,9 +503,11 @@ footer {
 .juegos__electronicos {
   background-color: rgba(0, 0, 0, 0.122);
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
-  grid-template-areas: "car bmw-car racing-car" "car auto-bmw2 bmwgame" "car auto-bmw2 bmwgame";
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+  grid-template-areas: "car bmw-car racing-car"
+ "car auto-bmw2 bmwgame"
+ "car auto-bmw2 bmwgame";
   height: 800px;
   padding: 30px;
   margin: 5%;
@@ -572,7 +586,7 @@ footer {
 .deportivo__esports2 {
   background-color: rgba(0, 0, 0, 0.593);
   display: grid;
-  grid-template-columns: 70% 30%;
+  grid-template-columns: auto;
   grid-template-rows: auto;
   padding: 20px;
   margin: 5%;
@@ -583,14 +597,16 @@ footer {
 .deportivos__esports {
   background-color: rgba(0, 0, 0, 0.593);
   display: grid;
-  grid-template-columns: 30% 70%;
+  grid-template-columns: auto;
   grid-template-rows: auto;
   grid-column: 40px;
   grid-row: 34px;
   padding: 20px;
   margin: 5%;
+  font-size: 12px;
   border-radius: 15px; }
 
 .carousel-item {
   width: 100%;
   height: 500px; }
+}
