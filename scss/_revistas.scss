@@ -7,25 +7,24 @@ column-gap: 10px;
 padding: 20px;
     margin: 5%;
     border-radius: 15px;
-
+}
     .edit__img{
     width: 400px;
     height: 400px;
-    
-    
-}.revista{
-    height: 100%;
-    width: 100%;
-    border-radius: 10px;
-    display: flex;
-}
+    }
+     
+    .revista{
+        height: 100%;
+        width: 100%;
+        border-radius: 10px;
+        display: flex;}
 .texto__revista{
     font-size: 20px;
     font-family: $texto-parrafo;
     color: $color-principal;
     }
 
-}
+
 
 .grid__parrafo2{
     background-color: $color-terciario;
@@ -35,12 +34,14 @@ padding: 20px;
     padding: 30px;
     margin: 5%;
     border-radius: 15px;
-    .texto__revista{
-        font-size: 20px;
-        font-family: $texto-parrafo;
-        color: $color-principal;
-        }
+
 }
+
+.texto__revista{
+    font-size: 20px;
+    font-family: $texto-parrafo;
+    color: $color-principal;
+    }
 .revista3{
     height: 400px;
     width: 400px;
