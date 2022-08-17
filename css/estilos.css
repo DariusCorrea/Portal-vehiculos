@@ -110,149 +110,6 @@
   padding: 40px;
   margin: 30px; }
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box; }
-
-h2 {
-  color: white;
-  font-size: 40px;
-  display: flex;
-  justify-content: center; }
-
-p {
-  color: white; }
-
-h1 {
-  color: white; }
-
-span {
-  color: white;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif; }
-
-body {
-  background-image: url(../resources/fondoweb.jpg);
-  margin: 0;
-  position: relative; }
-
-.texto__principal {
-  background-image: url(../resources/fondoactua.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 900px;
-  width: 95%;
-  align-items: center;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
-  margin: 5px;
-  border-radius: none;
-  box-shadow: 5px 5px 5px 0px;
-  color: black; }
-
-.titulo__principal {
-  color: black;
-  font-family: 'Mouse Memoirs', sans-serif;
-  text-shadow: 2px 2px 4px black;
-  font-size: 50px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  grid-column: 1/3;
-  grid-row: 1/1; }
-
-.formato__principal {
-  display: flex;
-  justify-content: center;
-  width: 100%; }
-
-.texto2 {
-  display: flex;
-  justify-content: center;
-  align-self: center;
-  align-items: center; }
-
-.galeria__fotos {
-  display: grid;
-  justify-content: center;
-  grid-template-columns: 270px 350px 250px;
-  grid-template-rows: 250px 250px 250px;
-  background-color: rgba(0, 0, 0, 0);
-  margin: 15px;
-  border-radius: 15px;
-  grid-gap: 15px; }
-
-.galeria__fotos img {
-  object-fit: cover;
-  width: 100%;
-  height: 100%;
-  border-radius: 10px; }
-
-.editar__mov {
-  width: 100%;
-  justify-content: center;
-  align-items: center;
-  align-self: center; }
-
-.imagen__primera {
-  grid-row: 1/3;
-  grid-column: 2/2; }
-
-.imagen__ultima {
-  grid-column: 1/4; }
-
-.grid__galeria-space {
-  display: grid;
-  grid-template-columns: 80%;
-  grid-template-rows: auto;
-  justify-content: center; }
-
-.principal {
-  background-color: rgba(0, 0, 0, 0); }
-
-.tamano__imagen {
-  height: 100%;
-  width: 100%; }
-
-.texto__galeria {
-  align-self: center; }
-
-.carousel-item {
-  object-fit: cover;
-  object-position: center; }
-
-.grid__parrafo {
-  display: grid;
-  grid-template-columns: 30% 70%;
-  grid-template-rows: auto;
-  background-color: rgba(0, 0, 0, 0);
-  justify-content: center;
-  padding: 30px; }
-
-.texto__revista {
-  font-size: 20px;
-  margin: 5px; }
-
-.revista {
-  height: 200px;
-  width: 300px;
-  margin: 5px; }
-
-.revista2 {
-  height: 200px;
-  width: 300px;
-  margin: 5px; }
-
-.grid__parrafo2 {
-  display: grid;
-  grid-template-columns: 70% 30%;
-  grid-template-rows: auto;
-  background-color: rgba(0, 0, 0, 0);
-  border-radius: 15px;
-  padding: 30px; }
-
 .juegos__electronicos {
   background-color: rgba(0, 0, 0, 0.122);
   display: grid;
@@ -356,6 +213,160 @@ body {
   margin: 5%;
   border-radius: 15px; }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+h2 {
+  color: white;
+  font-size: 40px;
+  display: flex;
+  justify-content: center; }
+
+p {
+  color: white; }
+
+h1 {
+  color: white; }
+
+span {
+  color: white;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif; }
+
+body {
+  background-image: url(../resources/fondoweb.jpg); }
+
+.texto__principal {
+  background-image: url(../resources/fondoactua.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 900px;
+  width: 95%;
+  align-items: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  margin: 5px;
+  border-radius: none;
+  box-shadow: 5px 5px 5px 0px;
+  color: black; }
+
+.titulo__principal {
+  color: white;
+  font-family: 'Mouse Memoirs', sans-serif;
+  text-shadow: black;
+  font-size: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  grid-column: 1/3;
+  grid-row: 1/1; }
+
+.formato__principal {
+  display: flex;
+  justify-content: center;
+  width: 100%; }
+
+.texto2 {
+  font-size: 30px; }
+
+.galeria__fotos {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 270px 350px 250px;
+  grid-template-rows: 250px 250px 250px;
+  background-color: rgba(0, 0, 0, 0);
+  margin: 15px;
+  border-radius: 15px;
+  grid-gap: 15px; }
+
+.galeria__fotos img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px; }
+
+.editar__mov {
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  align-self: center; }
+
+.imagen__primera {
+  grid-row: 1/3;
+  grid-column: 2/2; }
+
+.imagen__ultima {
+  grid-column: 1/4; }
+
+.grid__galeria-space {
+  display: grid;
+  grid-template-columns: 80%;
+  grid-template-rows: auto;
+  justify-content: center; }
+
+.principal {
+  background-color: rgba(0, 0, 0, 0); }
+
+.tamano__imagen {
+  height: 700px;
+  width: 750px; }
+
+.texto__galeria {
+  align-self: center;
+  font-size: 30px; }
+
+.galeria__texto {
+  font-size: 30px; }
+
+.carousel-item {
+  object-fit: cover;
+  object-position: center; }
+
+.grid__parrafo {
+  display: grid;
+  grid-template-columns: 30% 70%;
+  grid-template-rows: auto;
+  background-color: rgba(0, 0, 0, 0);
+  justify-content: center;
+  padding: 30px; }
+
+.texto__revista {
+  font-size: 30px; }
+
+.revista {
+  height: 400px;
+  width: 400px;
+  border-radius: 15px;
+  margin: 5px; }
+
+.revista2 {
+  height: 400px;
+  width: 400px;
+  margin: 5px;
+  border-radius: 15px; }
+
+.revista3 {
+  height: 400px;
+  width: 400px;
+  border-radius: 15px; }
+
+.grid__parrafo2 {
+  display: grid;
+  grid-template-columns: 70% 30%;
+  grid-template-rows: auto;
+  background-color: rgba(0, 0, 0, 0);
+  border-radius: 15px;
+  padding: 30px; }
+
+.galeria {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+  align-items: center; }
+
 /* MEDIA DE CELULAR */
 @media (min-width: 320px) and (max-width: 575px) {
   .imagen__nav {
@@ -450,13 +461,15 @@ body {
     display: grid;
     grid-template-columns: auto;
     grid-template-rows: auto;
-    justify-content: center;
-    margin: 10px; }
+    justify-content: center; }
   .principal {
     background-color: rgba(0, 0, 0, 0); }
+  .carousel-item {
+    object-fit: cover;
+    object-position: center; }
   .tamano__imagen {
-    height: 100%;
-    width: 100%; }
+    height: 300px;
+    width: 300px; }
   .texto__galeria {
     align-self: center; }
   .carousel-item {
@@ -591,7 +604,43 @@ body {
     grid-row: 34px;
     padding: 20px;
     margin: 5%;
-    border-radius: 15px; } }
+    border-radius: 15px; }
+  .galeria__title {
+    font-size: 20px; }
+  .movimiento__editado {
+    height: 300px; }
+  .galeria {
+    display: block;
+    height: auto;
+    width: auto;
+    margin: 15px; }
+  .footer {
+    display: grid;
+    height: auto;
+    justify-content: center;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    padding: 3px;
+    row-gap: 3px;
+    column-gap: 10px;
+    align-items: center;
+    width: auto;
+    background-color: rgba(0, 0, 0, 0.244); }
+  .footer__hijo {
+    display: flex;
+    justify-content: center; }
+  .footer__class {
+    display: inline;
+    justify-content: center;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    list-style: none;
+    align-self: center; }
+  .footer__derechos {
+    display: flex;
+    justify-content: center;
+    align-items: center; } }
 
 /* MEDIA QUERIE DE TABLET */
 @media (min-width: 576px) and (max-width: 992px) {

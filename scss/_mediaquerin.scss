@@ -120,6 +120,7 @@
     
     }
 
+
     .movimiento__editado{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
@@ -136,15 +137,17 @@
         grid-template-columns: auto;
         grid-template-rows: auto;   
         justify-content: center;
-        margin: 10px;
      }
-    .principal{
-      background-color: rgba(0, 0, 0, 0);
 
+    .principal{
+      background-color: rgba(0, 0, 0, 0);}
+    .carousel-item{
+        object-fit: cover;
+        object-position: center;
     }
     .tamano__imagen{
-        height: 100%;
-        width: 100%;
+        height: 300px;
+        width: 300px;
     }
     .texto__galeria{
         align-self: center  ;
@@ -320,8 +323,57 @@
         margin: 5%;
         border-radius: 15px;
         }
-}
+        
+        .galeria__title{
+            font-size: 20px;
+        }
+        .movimiento__editado{
+            height: 300px;
+        }
+        .galeria{
+            display: block;
+            height: auto;
+            width: auto;
+            margin: 15px;
+        }
+  .footer{
+            display: grid;
+            height: auto;
+            justify-content: center;
+            grid-template-columns: auto;
+            grid-template-rows:auto;
+            padding:3px;
+            row-gap: 3px;
+            column-gap: 10px;
+            align-items: center;
+            width: auto;
+            background-color: rgba(0, 0, 0, 0.244);
+            }
+        
+            .footer__hijo{
+                
+                display: flex;
+                justify-content: center;
+            }
+            
+            .footer__class{
+                display: inline;
+                justify-content: center;
+                padding: 10px;
+                text-decoration: none;
+                color: white;
+                list-style: none;
+                align-self: center;
+            }
+            
+            
+            .footer__derechos{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            }  
 
+        }
 
 /* MEDIA QUERIE DE TABLET */
 @media (min-width:576px) and (max-width:992px){

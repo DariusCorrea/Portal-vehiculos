@@ -21,8 +21,6 @@ span{
 }
 body{
     background-image: url(../resources/fondoweb.jpg);
-    margin: 0;
-    position: relative;
 }
 
 
@@ -43,11 +41,11 @@ body{
     color: $color-secundario;
     }
     .titulo__principal{
-        color: $color-secundario;
+        color: $color-principal;
         font-family: 'Mouse Memoirs', sans-serif;
-        text-shadow: 2px 2px 4px $color-secundario;
+        text-shadow: $color-secundario;
         
-        font-size: 50px;
+        font-size: 100px;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -64,10 +62,7 @@ body{
     }
     
     .texto2{
-        display: flex;
-        justify-content: center;
-        align-self: center;
-        align-items: center;
+    font-size: 30px;
     }
     
     .galeria__fotos{
@@ -113,15 +108,19 @@ body{
         justify-content: center;
      }
     .principal{
-      background-color: rgba(0, 0, 0, 0);
+    background-color: rgba(0, 0, 0, 0);
 
     }
     .tamano__imagen{
-        height: 100%;
-        width: 100%;
+        height: 700px;
+        width: 750px;
     }
     .texto__galeria{
         align-self: center  ;
+        font-size: 30px;
+    }
+    .galeria__texto{
+        font-size: 30px;
     }
 
     .carousel-item{
@@ -138,18 +137,25 @@ body{
         padding: 30px;
     }
     .texto__revista{
-        font-size: 20px;
-        margin: 5px;
+        font-size: 30px;
+        
     }
     .revista{
-        height: 200px;
-        width: 300px;
+        height: 400px;
+        width: 400px;
+        border-radius: 15px;
         margin: 5px;
         }
     .revista2{
-        height: 200px;
-        width: 300px;
+        height: 400px;
+        width: 400px;
         margin: 5px;
+        border-radius: 15px;
+    }
+    .revista3{
+        height: 400px;
+        width: 400px;
+        border-radius: 15px;
     }
     .grid__parrafo2{
         display:grid;
@@ -159,5 +165,9 @@ body{
         border-radius: 15px;
         padding: 30px;
     }
-
- 
+.galeria{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    align-items: center;
+}
