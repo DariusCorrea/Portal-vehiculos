@@ -42,8 +42,8 @@
 .navbar-brand {
   color: white;
   padding: 30px;
-  font-size: 40px;
-  font-family: 'Mouse Memoirs', sans-serif; }
+  font-size: 30px;
+  font-family: 'Open Sans', sans-serif; }
 
 .navbar-brand:hover {
   color: white; }
@@ -57,9 +57,9 @@
 
 .nav-link {
   color: white;
-  font-size: 25px;
+  font-size: 20px;
   text-shadow: 54px;
-  font-family: 'Mouse Memoirs', sans-serif; }
+  font-family: 'Open Sans', sans-serif; }
 
 .edit__boton {
   color: black;
@@ -91,7 +91,7 @@
   color: white;
   padding: 30px;
   font-size: 40px;
-  font-family: 'Mouse Memoirs', sans-serif; }
+  font-family: 'Open Sans', sans-serif; }
   .navbar-brand:hover {
     color: white; }
 
@@ -222,23 +222,27 @@ h2 {
   color: white;
   font-size: 40px;
   display: flex;
-  justify-content: center; }
+  justify-content: center;
+  font-family: 'Albert Sans', sans-serif; }
 
 p {
   color: white; }
 
 h1 {
-  color: white; }
+  color: white;
+  font-family: 'Albert Sans', sans-serif; }
 
 span {
   color: white;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif; }
+  font-family: 'Albert Sans', sans-serif; }
 
 body {
   background-image: url(../resources/fondoweb.jpg); }
 
 .texto__principal {
-  background-image: url(../resources/fondoactua.jpg);
+  background-image: url(../resources/fondoactua.webp);
+  background-color: #323232;
+  background-blend-mode: soft-light;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -249,19 +253,17 @@ body {
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
   margin: 5px;
-  border-radius: none;
-  box-shadow: 5px 5px 5px 0px;
-  color: black; }
+  border-radius: 15px;
+  color: white; }
 
 .titulo__principal {
   color: white;
-  font-family: 'Mouse Memoirs', sans-serif;
-  text-shadow: black;
-  font-size: 100px;
+  font-family: 'Albert Sans', sans-serif;
+  font-size: 70px;
   display: flex;
   align-items: center;
   justify-content: center;
-  grid-column: 1/3;
+  grid-column: 1/2;
   grid-row: 1/1; }
 
 .formato__principal {
@@ -270,7 +272,8 @@ body {
   width: 100%; }
 
 .texto2 {
-  font-size: 30px; }
+  font-size: 30px;
+  font-family: 'Albert Sans', sans-serif; }
 
 .galeria__fotos {
   display: grid;
@@ -316,10 +319,13 @@ body {
 
 .texto__galeria {
   align-self: center;
-  font-size: 30px; }
+  font-size: 30px;
+  font-family: 'Albert Sans', sans-serif; }
 
 .galeria__texto {
-  font-size: 30px; }
+  font-size: 25px;
+  margin: 30px;
+  font-family: 'Albert Sans', sans-serif; }
 
 .carousel-item {
   object-fit: cover;
@@ -333,20 +339,29 @@ body {
   justify-content: center;
   padding: 30px; }
 
+.revista:hover {
+  transform: scale(1.15); }
+
+.revista2:hover {
+  transform: scale(1.15); }
+
 .texto__revista {
-  font-size: 30px; }
+  font-size: 25px;
+  font-family: 'Open Sans', sans-serif; }
 
 .revista {
   height: 400px;
   width: 400px;
   border-radius: 15px;
-  margin: 5px; }
+  margin: 5px;
+  transition: all 300ms; }
 
 .revista2 {
   height: 400px;
   width: 400px;
   margin: 5px;
-  border-radius: 15px; }
+  border-radius: 15px;
+  transition: all 300ms; }
 
 .revista3 {
   height: 400px;
@@ -359,13 +374,18 @@ body {
   grid-template-rows: auto;
   background-color: rgba(0, 0, 0, 0);
   border-radius: 15px;
-  padding: 30px; }
+  padding: 30px;
+  margin: 25px; }
 
 .galeria {
   display: flex;
   justify-content: center;
   margin: 20px;
-  align-items: center; }
+  align-items: center;
+  transition: 2.5; }
+
+.galeria__texto:hover {
+  transform: scale(1.05); }
 
 /* MEDIA DE CELULAR */
 @media (min-width: 320px) and (max-width: 575px) {
@@ -384,7 +404,7 @@ body {
     color: white;
     padding: 30px;
     font-size: 40px;
-    font-family: 'Mouse Memoirs', sans-serif; }
+    font-family: 'Open Sans', sans-serif; }
   .navbar-brand:hover {
     color: white; }
   .imagen__nav {
@@ -394,7 +414,7 @@ body {
     color: white;
     font-size: 25px;
     text-shadow: 54px;
-    font-family: 'Mouse Memoirs', sans-serif; }
+    font-family: 'Open Sans', sans-serif; }
   .edit__boton {
     color: black;
     background: white;
@@ -416,15 +436,16 @@ body {
     height: 200px;
     color: black; }
   .titulo__principal {
-    color: black;
-    font-family: 'Mouse Memoirs', sans-serif;
-    text-shadow: 2px 2px 4px black;
-    font-size: 50px;
+    color: white;
+    font-family: 'Permanent Marker', cursive;
+    text-shadow: white;
+    font-size: 23px;
     display: flex;
     align-items: center;
     justify-content: center;
-    grid-column: 1/3;
-    grid-row: 1/1; }
+    grid-column: 1/2;
+    grid-row: 1/2;
+    margin: 7px; }
   .galeria__fotos {
     display: grid;
     justify-content: center;
@@ -461,7 +482,8 @@ body {
     display: grid;
     grid-template-columns: auto;
     grid-template-rows: auto;
-    justify-content: center; }
+    justify-content: center;
+    margin: 6px; }
   .principal {
     background-color: rgba(0, 0, 0, 0); }
   .carousel-item {
