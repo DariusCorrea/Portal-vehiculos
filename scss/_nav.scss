@@ -5,21 +5,23 @@
 
 .nav-item{
     color: black;
-& a:hover{
+}
+.nav-item a:hover{
     color: white;
     transform: scale(1.05, 1.05);
     transition: 1s;
     }
-}
+
 .navbar-brand{
     color: white;
     padding: 30px;
     font-size: 40px;
     font-family: 'Mouse Memoirs', sans-serif;
-&:hover{
+}
+.navbar-brand:hover{
     color: white ;
 }
-}
+
 .imagen__nav{
     height: 50px;
     width: 70px;
@@ -59,8 +61,39 @@ background-image: url(../resources/pngnav.png);
     height: 50px;
 }
 
-.boton__prueba{
-    display: flex;
-    justify-content: center;
+.nav-item{
+    color: black;
+& a:hover{
+    color: white;
+    transform: scale(1.05, 1.05);
+    transition: 1s;
+    }
+}
+.navbar-brand{
+    color: white;
+    padding: 30px;
+    font-size: 40px;
+    font-family: 'Mouse Memoirs', sans-serif;
+&:hover{
+    color: white ;
+}
 }
 
+.edit__boton{
+    color: black;
+    background: white;
+    background-color: white;
+}
+
+.form-group{
+    color: $color-principal;
+    font-size: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+
+.color__fondo{
+    background: rgba(122, 122, 122, 0.12);
+    padding: 40px;
+    margin: 30px;
+}
