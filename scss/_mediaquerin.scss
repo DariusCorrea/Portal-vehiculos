@@ -3,20 +3,20 @@
     .formato__principal{
         display: none;
     }
-.container-fluid{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    flex-grow: 1;
-    top: 1;
-    position: sticky;
-}
+    .contenedor__grid{
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto;
+        margin-bottom: 100%;
+        padding: 10px;
+    }
     .imagen__nav{
         height: 50px;
     
     }
     .navbar-toggler{
         color: white;
+        width: 70px;
     
         background: white;
     }
@@ -71,9 +71,10 @@
         
     }
     .header__nav{
-        background-image: url(../resources/fondoactua.webp);
-        min-height: 575px;
+        background-image: url(../resources/yellow.jpg);
+        height: auto;
         background-size: cover;
+        background-repeat: no-repeat;
         background-position: center;
         background-color: rgb(50, 50, 50);
     background-blend-mode: soft-light;
