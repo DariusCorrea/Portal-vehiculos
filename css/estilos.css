@@ -334,11 +334,10 @@ body {
   padding: 40px; }
 
 .grid__parrafo {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: auto;
-  background-color: rgba(0, 0, 0, 0.571);
-  justify-content: center; }
+  display: flex;
+  background-color: grey;
+  padding: 30px;
+  margin: 20px; }
 
 .revista:hover {
   transform: scale(1.15); }
@@ -402,7 +401,7 @@ body {
     height: 50px; }
   .navbar-toggler {
     color: white;
-    width: 70px;
+    width: auto;
     background: white; }
   .nav-item {
     color: white; }
@@ -412,14 +411,14 @@ body {
     transition: 1s; }
   .navbar-brand {
     color: white;
-    padding: 30px;
-    font-size: 40px;
+    padding: 10px;
+    font-size: 25px;
     font-family: 'Open Sans', sans-serif; }
   .navbar-brand:hover {
     color: white; }
   .imagen__nav {
-    height: 50px;
-    width: 70px; }
+    height: auto;
+    width: auto; }
   .nav-link {
     color: white;
     font-size: 25px;

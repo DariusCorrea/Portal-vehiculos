@@ -16,7 +16,7 @@
     }
     .navbar-toggler{
         color: white;
-        width: 70px;
+        width: auto;
     
         background: white;
     }
@@ -31,8 +31,8 @@
     
     .navbar-brand{
         color: white;
-        padding: 30px;
-        font-size: 40px;
+        padding: 10px;
+        font-size: 25px;
         font-family: 'Open Sans', sans-serif;
     }
     .navbar-brand:hover{
@@ -40,8 +40,8 @@
     }
     
     .imagen__nav{
-        height: 50px;
-        width: 70px;
+        height: auto;
+        width: auto;
     }
 
     .nav-link{
