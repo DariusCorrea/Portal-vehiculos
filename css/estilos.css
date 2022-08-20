@@ -370,6 +370,15 @@ h3 {
   border-radius: 15px;
   transition: all 5s; }
 
+.seccion2 {
+  background: rgba(255, 0, 0, 0);
+  height: 550px;
+  width: 100%;
+  object-fit: contain;
+  object-position: center;
+  border-radius: 15px;
+  transition: all 5s; }
+
 .seccion__numero2 {
   background-color: rgba(255, 255, 0, 0); }
 
@@ -736,7 +745,15 @@ h3 {
   h1 {
     align-items: center;
     padding: 4px;
-    font-size: 20px; } }
+    font-size: 20px; }
+  .seccion2 {
+    background: rgba(255, 0, 0, 0);
+    height: 250px;
+    width: 100%;
+    object-fit: contain;
+    object-position: center;
+    border-radius: 15px;
+    transition: all 5s; } }
 
 /* MEDIA QUERIE DE TABLET */
 @media (min-width: 576px) and (max-width: 992px) {
