@@ -66,7 +66,7 @@ body{
     }
     
     .texto2{
-    font-size: 30px;
+    font-size: 19px;
     font-family: 'Albert Sans', sans-serif;
     }
     
@@ -141,12 +141,52 @@ body{
     padding: 40px;
 }
 .grid__parrafo{
-display: flex;
-background-color: grey;
+display: grid;
+grid-template-columns: 30% 30%;
+grid-template-rows: auto;
+background-color: rgba(117, 2, 225, 0);
 padding: 30px;
 margin: 20px;
-
+grid-gap: 2%;
+justify-content: center;
+border-radius: 15px;
     
+}
+.grid__parrafo2{
+    display: grid;
+    grid-template-columns: 30% 30%;
+   grid-template-rows:  auto;
+    justify-content: center;
+    background-color: rgba(41, 224, 56, 0);
+    padding: 30px;
+    margin: 20px;
+    grid-gap: 2%;
+    border-radius: 15px;
+        
+    }
+    
+
+    h3{
+        display: flex;
+        justify-content: center;
+        color: white;
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    .seccion{
+        background: red;
+        height: 350px;
+        width: 100%;
+        object-fit: cover;
+        object-position: center;
+        border-radius: 15px;
+        transition: all 5s;
+    }
+.seccion__numero2{
+    background-color: rgba(255, 255, 0, 0);
+}
+.seccion:hover{
+    transform: scale(1.10);
 }
  
     .revista:hover{
@@ -180,15 +220,7 @@ margin: 20px;
         width: 400px;
         border-radius: 15px;
     }
-    .grid__parrafo2{
-        display:grid;
-        grid-template-columns: 40% 10%;
-        grid-template-rows: auto;
-        background-color: rgba(0, 0, 0, 0);
-        justify-content: center;
-        border-radius: 15px;
-    padding: 20px;
-    }
+    
 .galeria{
     display: flex;
     justify-content: center;
