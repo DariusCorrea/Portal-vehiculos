@@ -32,18 +32,23 @@
   height: 50px; }
 
 .nav-item {
-  color: black; }
+  color: white; }
 
 .nav-item a:hover {
   color: white;
   transform: scale(1.05, 1.05);
   transition: 1s; }
 
+.colores:hover {
+  color: white; }
+
 .navbar-brand {
   color: white;
   padding: 30px;
   font-size: 30px;
-  font-family: 'Open Sans', sans-serif; }
+  font-family: 'Open Sans', sans-serif;
+  text-decoration: none;
+  list-style: none; }
 
 .navbar-brand:hover {
   color: white; }
@@ -59,7 +64,7 @@
   font-family: 'Open Sans', sans-serif; }
 
 .edit__boton {
-  color: black;
+  color: white;
   background: white;
   background-color: white; }
 
@@ -75,10 +80,12 @@
 
 .header__nav {
   background-color: rgba(255, 255, 255, 0);
-  height: 50px; }
+  height: 50px;
+  list-style: none;
+  color: white; }
 
 .nav-item {
-  color: black; }
+  color: white; }
   .nav-item a:hover {
     color: white;
     transform: scale(1.05, 1.05);
@@ -270,7 +277,9 @@ body {
 
 .texto2 {
   font-size: 19px;
-  font-family: 'Albert Sans', sans-serif; }
+  font-family: 'Albert Sans', sans-serif;
+  padding: 30px;
+  align-items: center; }
 
 .galeria__fotos {
   display: grid;
@@ -462,7 +471,7 @@ h3 {
     text-shadow: 54px;
     font-family: 'Open Sans', sans-serif; }
   .edit__boton {
-    color: black;
+    color: white;
     background: white;
     background-color: white; }
   .form-group {

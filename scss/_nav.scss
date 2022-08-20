@@ -4,19 +4,24 @@
 }
 
 .nav-item{
-    color: black;
+    color: rgb(255, 255, 255);
 }
 .nav-item a:hover{
     color: white;
     transform: scale(1.05, 1.05);
     transition: 1s;
     }
+.colores:hover{
+    color: white    ;
 
+}
 .navbar-brand{
     color: white;
     padding: 30px;
     font-size: 30px;
     font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+    list-style: none;
 }
 .navbar-brand:hover{
     color: white ;
@@ -35,7 +40,7 @@
     font-family: 'Open Sans', sans-serif;
 }
 .edit__boton{
-    color: black;
+    color: white;
     background: white;
     background-color: white;
 }
@@ -56,10 +61,12 @@
 .header__nav{
     background-color: rgba(255, 255, 255, 0);
     height: 50px;
+    list-style: none;
+    color: white;
 }
 
 .nav-item{
-    color: black;
+    color: rgb(255, 255, 255);
 & a:hover{
     color: white;
     transform: scale(1.05, 1.05);
