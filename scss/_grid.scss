@@ -1,87 +1,41 @@
 .juegos__electronicos{
-    background-color: $color-edit;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    grid-template-areas: "car bmw-car racing-car"
-                        "car auto-bmw2 bmwgame"
-                        "car auto-bmw2 bmwgame";
-    height: 800px;
-    
-    padding: 30px;
-margin: 5%;
-border-radius: 15px;
-    justify-content: center;    
+display: grid;
+grid-template-columns: 300px 350px 350px;
+grid-template-rows: 350px 350px 350px;
+justify-content: center;
+grid-gap: 30px;
+
 
 }
-    
-    .car{
-        grid-area: car;
-        background-image: url(../resources/car.gif);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
-        transition: 2s;
-        overflow: hidden;
-        margin: 20px;
-        cursor: pointer;
-        border-radius: 15px;
-        
-    }
 
-    .bmw-car{
-        grid-area: bmw-car;
-        background-image: url(../resources/bmw-car.gif);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
-        transition: 2s;
-        overflow: hidden;
-        margin: 20px;
-        cursor: pointer;
-        border-radius: 15px;
-    }
+.juegos__electronicos img{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    border-radius: 0px 0px 20px 20px;
+    object-position: center;
+}
 
-    .racing-car{
-        grid-area: racing-car;
-        background-image: url(../resources/racing-car.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
-        transition: 2s;
-        overflow: hidden;
-        margin: 20px;
-        cursor: pointer;
-        border-radius: 15px;
-    }
+.imagen1{
+    background-color: rgba(255, 0, 0, 0);
+    grid-column: 1/4;
 
-    .auto-bmw2{
-        grid-area: auto-bmw2;
-        background-image: url(../resources/auto-bmw2.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
-        transition: 2s;
-        overflow: hidden;
-        margin: 20px;
-        cursor: pointer;
-        border-radius: 15px;
-        column-gap: 2px;
-        row-gap: 3px;
-    }
+}
 
-    .bmwgame{
-        grid-area: bmwgame;
-        background-image: url(../resources/bmwgame.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
-        transition: 2s;
-        overflow: hidden;
-        margin: 20px;
-        cursor: pointer;
-        border-radius: 15px;
-    }
+.imagen2{
+    background-color: rgba(0, 128, 0, 0);
+    grid-column: 1/4;
+}
+
+.imagen3{
+    grid-column: 1/4;
+}
+
+.juegos__electronicos img:hover{
+    transform: scale(1.1);
+    transition: 500ms all;
+}
+
 
     .subtitulo{
         display: flex;
@@ -117,4 +71,10 @@ padding: 20px;
 padding: 20px;
     margin: 5%;
     border-radius: 15px;
+    }
+
+    .titulo__electronico{
+        font-size: 50px;
+        display: flex;
+        justify-content: center;
     }
