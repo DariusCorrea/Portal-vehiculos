@@ -611,70 +611,6 @@ h3 {
   .revista3 {
     height: 200px;
     width: 250px; }
-  .juegos__electronicos {
-    display: grid;
-    grid-template-columns: 350px;
-    grid-template-rows: auto;
-    grid-template-areas: "car car" "bmw-car" "racing-car" "racing-car" "auto-bmw2" "auto-bmw2";
-    margin: auto;
-    justify-content: center;
-    width: 100%; }
-  .car {
-    grid-area: car;
-    background-image: url(../resources/car.gif);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    transition: 2s;
-    margin: 20px;
-    cursor: pointer;
-    border-radius: 15px; }
-  .bmw-car {
-    grid-area: bmw-car;
-    background-image: url(../resources/bmw-car.gif);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    transition: 2s;
-    overflow: hidden;
-    margin: 20px;
-    cursor: pointer;
-    border-radius: 15px; }
-  .racing-car {
-    grid-area: racing-car;
-    background-image: url(../resources/racing-car.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    transition: 2s;
-    overflow: hidden;
-    margin: 20px;
-    cursor: pointer;
-    border-radius: 15px; }
-  .auto-bmw2 {
-    grid-area: auto-bmw2;
-    background-image: url(../resources/auto-bmw2.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    transition: 2s;
-    overflow: hidden;
-    margin: 20px;
-    cursor: pointer;
-    border-radius: 15px;
-    column-gap: 2px;
-    row-gap: 3px; }
-  .bmwgame {
-    grid-area: bmwgame;
-    background-image: url(../resources/bmwgame.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    transition: 2s;
-    overflow: hidden;
-    margin: 20px;
-    cursor: pointer;
-    border-radius: 15px; }
   .subtitulo {
     display: flex;
     justify-content: center;
@@ -807,7 +743,7 @@ h3 {
     grid-column: 1/1; }
   .revista__imagen3 {
     background-color: rgba(255, 255, 0, 0);
-    grid-column: 1/2; }
+    grid-column: 1/1; }
   .revista__imagen4 {
     background-color: rgba(137, 43, 226, 0);
     grid-column: 1/1; }
@@ -820,8 +756,7 @@ h3 {
     object-fit: cover;
     height: 100%;
     width: 100%;
-    object-position: center;
-    border-radius: 10px; }
+    object-position: center; }
   .revista__grid img {
     object-fit: cover;
     height: 100%;
@@ -832,10 +767,11 @@ h3 {
     font-size: 12px; }
   .juegos__electronicos {
     display: grid;
-    grid-template-columns: auto;
+    grid-template-columns: 1fr;
     grid-template-rows: auto;
     justify-content: center;
-    grid-gap: 20px; }
+    grid-gap: 20px;
+    margin: 20px; }
   .juegos__electronicos img {
     object-fit: cover;
     height: 100%;
