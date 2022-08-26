@@ -25,11 +25,21 @@ body{
     background-image: url(../resources/fondoweb.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    padding: 0;
+    margin: 0;
+
+}
+
+footer{
+    position: fixe; 
+    bottom: 0;
+    width: 100%;
 }
 
 
+
 .texto__principal{
-   background-image: url(../resources/portada.gif);
+background-image: url(../resources/portada.gif);
     animation: movimiento 10s;
     background-color: rgb(50, 50, 50);
     background-blend-mode: soft-light;
@@ -75,7 +85,8 @@ body{
     }
     
     .texto2{
-    font-size: 19px;
+    font-size: 25px;
+    margin: 20px;
     font-family: 'Albert Sans', sans-serif;
     padding: 30px;
     align-items: center;
@@ -185,7 +196,7 @@ border-radius: 15px;
     }
 
     .seccion{
-        background: red;
+        background: rgba(255, 0, 0, 0);
         height: 350px;
         width: 100%;
         object-fit: cover;
@@ -206,9 +217,9 @@ border-radius: 15px;
     background-color: rgba(255, 255, 0, 0);
 }
 .seccion:hover{
-    transform: scale(1.10);
+    transform:scale(1.11);
+    transition: 100ms all;
 }
- 
     .revista:hover{
         transform: scale(1.15);
     }
@@ -328,4 +339,23 @@ position: relative;
     transform: scale(1.1, 1.1);
     transition: 500ms all;
 filter:grayscale(2)
+}
+
+
+.galeria img:hover{
+    transform: scale(1.1, 1.1);
+    transition: 500ms all;
+
+}
+
+.editar__formulario{
+display: grid;
+justify-content: center;
+
+
+}
+
+.color__fondo{
+    background-color: rgba(0, 0, 0, 0);
+
 }
