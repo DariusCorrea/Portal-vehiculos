@@ -5,6 +5,7 @@
 
 .nav-item{
     color: rgb(255, 255, 255);
+
 }
 .nav-item a:hover{
     color: white;
@@ -34,10 +35,10 @@
 
 .nav-link{
     color: white;
-    
     font-size: 20px;
     text-shadow: 54px;
     font-family: 'Open Sans', sans-serif;
+
 }
 .edit__boton{
     color: white;
@@ -61,8 +62,10 @@
 .header__nav{
     background-color: rgba(255, 255, 255, 0);
     height: 50px;
-    list-style: none;
+position: sticky;
+top: 0px;
     color: white;
+
 }
 
 .nav-item{
