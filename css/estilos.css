@@ -219,13 +219,17 @@ body {
   background-image: url(../resources/fondoweb.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  margin: 0;
   padding: 0;
-  margin: 0; }
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; }
 
 footer {
-  position: fixe;
+  position: relative;
   bottom: 0;
-  width: 100%; }
+  margin-top: auto; }
 
 .texto__principal {
   background-image: url(../resources/portada.gif);
@@ -974,7 +978,7 @@ h3 {
     margin: 20px;
     border-radius: 15px; }
   .texto__revista {
-    font-size: 13px;
+    font-size: 23px;
     margin: 15px;
     align-self: center; }
   .revista {
@@ -1207,4 +1211,7 @@ h3 {
   .editar__formulario {
     width: 100%; }
   .color__fondo {
-    background-color: rgba(0, 0, 0, 0); } }
+    background-color: rgba(0, 0, 0, 0); }
+  .letra__edit {
+    font-size: 23px;
+    font-family: 'Albert Sans', sans-serif; } }

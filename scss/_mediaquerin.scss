@@ -676,7 +676,7 @@
         border-radius: 15px;
     }
     .texto__revista{
-        font-size: 13px;
+        font-size: 23px;
         margin: 15px;
         align-self: center;
     }
@@ -1009,5 +1009,8 @@
                             background-color: rgba(0, 0, 0, 0);
                         
                         }
-                        
+                        .letra__edit{
+                            font-size: 23px;
+                            font-family: 'Albert Sans', sans-serif;
+                        }
                 }
