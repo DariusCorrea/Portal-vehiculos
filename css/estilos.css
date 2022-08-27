@@ -517,7 +517,7 @@ h3 {
   display: grid;
   grid-template-columns: 30% 30%;
   grid-template-rows: 30%;
-  grid-gap: 50px;
+  grid-gap: 55px;
   margin: 20px;
   padding: 20px;
   justify-content: center; }
@@ -526,8 +526,8 @@ h3 {
   display: grid;
   grid-template-columns: 570px 570px 570px;
   grid-template-rows: 300px;
-  grid-gap: 66px;
-  margin: 5px;
+  grid-gap: 76px;
+  margin: 25px;
   padding: 4%;
   justify-content: center; }
 
