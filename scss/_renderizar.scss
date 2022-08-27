@@ -23,7 +23,7 @@ justify-content: center;
 align-self: center;
 }
 span{
-    color: white;
+    color:$color-principal;
     font-family: 'Albert Sans', sans-serif;
 }
 body{
@@ -64,6 +64,7 @@ background-image: url(../resources/portada.gif);
     border-radius: 15px;
     
     color: $color-principal;
+
 @keyframes movimiento{
     from{
         background-position: bottom left;
@@ -82,9 +83,6 @@ background-image: url(../resources/portada.gif);
         justify-content: center;
         grid-column: 1/2;
         grid-row: 1/1;
-   
-        
-        
     }
     .formato__principal{
         display: flex;
@@ -385,7 +383,7 @@ padding: 20px;
     grid-template-columns: 570px 570px 570px;
     grid-template-rows: 300px ;
 grid-gap: 76px;
-margin: 25px;
+margin: 23px;
 padding: 4%;
         justify-content: center;
 }
