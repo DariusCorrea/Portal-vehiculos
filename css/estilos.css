@@ -219,6 +219,11 @@ h1 {
   color: white;
   font-family: 'Albert Sans', sans-serif; }
 
+.mover__titulo {
+  display: flex;
+  justify-content: center;
+  align-self: center; }
+
 span {
   color: white;
   font-family: 'Albert Sans', sans-serif; }
@@ -385,9 +390,9 @@ h3 {
 
 .seccion2 {
   background: rgba(255, 0, 0, 0);
-  height: 550px;
+  height: 450px;
   width: 100%;
-  object-fit: contain;
+  object-fit: cover;
   object-position: center;
   border-radius: 15px;
   transition: all 5s; }
@@ -482,7 +487,7 @@ h3 {
 .edit__titulo {
   display: flex;
   justify-content: center;
-  font-size: 70px;
+  font-size: 40px;
   font-family: Arial, Helvetica, sans-serif; }
 
 .subtitulo__grid {
@@ -507,6 +512,24 @@ h3 {
 
 .color__fondo {
   background-color: rgba(0, 0, 0, 0); }
+
+.historia__edit {
+  display: grid;
+  grid-template-columns: 30% 30%;
+  grid-template-rows: 30%;
+  grid-gap: 50px;
+  margin: 20px;
+  padding: 20px;
+  justify-content: center; }
+
+.grid__inicio {
+  display: grid;
+  grid-template-columns: 570px 570px 570px;
+  grid-template-rows: 300px;
+  grid-gap: 66px;
+  margin: 5px;
+  padding: 4%;
+  justify-content: center; }
 
 /* MEDIA DE CELULAR */
 @media (min-width: 320px) and (max-width: 575px) {
@@ -858,7 +881,23 @@ h3 {
     font-family: 'Albert Sans', sans-serif; }
   .boton__prueba {
     display: flex;
-    height: 100px; } }
+    height: 100px; }
+  .historia__edit {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    grid-gap: 50px;
+    margin: 20px;
+    padding: 20px;
+    justify-content: center; }
+  .grid__inicio {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    grid-gap: 10px;
+    margin: 15px;
+    padding: 4%;
+    justify-content: center; } }
 
 /* MEDIA QUERIE DE TABLET */
 @media (min-width: 576px) and (max-width: 992px) {
@@ -1224,4 +1263,20 @@ h3 {
     background-color: rgba(0, 0, 0, 0); }
   .letra__edit {
     font-size: 23px;
-    font-family: 'Albert Sans', sans-serif; } }
+    font-family: 'Albert Sans', sans-serif; }
+  .historia__edit {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    grid-gap: 50px;
+    margin: 40px;
+    padding: 40px;
+    justify-content: center; }
+  .grid__inicio {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    grid-gap: 36px;
+    margin: 15px;
+    padding: 4%;
+    justify-content: center; } }

@@ -491,6 +491,25 @@
                     display: flex;
                 height: 100px;
                 }
+                .historia__edit{
+                    display: grid;
+                    grid-template-columns: auto;
+                    grid-template-rows: auto ;
+                grid-gap: 50px;
+                margin: 20px;
+                padding: 20px;
+                        justify-content: center;
+                
+                }
+                .grid__inicio{
+                    display: grid;
+                    grid-template-columns: auto;
+                    grid-template-rows: auto ;
+                grid-gap: 10px;
+                margin: 15px;
+                padding: 4%;
+                        justify-content: center;
+                }
                 }
         
 
@@ -1013,5 +1032,24 @@
                         .letra__edit{
                             font-size: 23px;
                             font-family: 'Albert Sans', sans-serif;
+                        }
+                        .historia__edit{
+                            display: grid;
+                            grid-template-columns: auto;
+                            grid-template-rows: auto ;
+                        grid-gap: 50px;
+                        margin: 40px;
+                        padding: 40px;
+                                justify-content: center;
+                        
+                        }
+                        .grid__inicio{
+                            display: grid;
+                            grid-template-columns: auto;
+                            grid-template-rows: auto ;
+                        grid-gap: 36px;
+                        margin: 15px;
+                        padding: 4%;
+                                justify-content: center;
                         }
                 }

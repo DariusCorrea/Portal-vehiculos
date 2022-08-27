@@ -17,6 +17,11 @@ h1{
     color: $color-principal;
     font-family: 'Albert Sans', sans-serif;
 }
+.mover__titulo{
+display: flex;
+justify-content: center;
+align-self: center;
+}
 span{
     color: white;
     font-family: 'Albert Sans', sans-serif;
@@ -209,9 +214,9 @@ border-radius: 15px;
     }
     .seccion2{
         background: rgba(255, 0, 0, 0);
-        height: 550px;
+        height: 450px;
         width: 100%;
-        object-fit: contain;
+        object-fit: cover;
         object-position: center;
         border-radius: 15px;
         transition: all 5s;
@@ -325,7 +330,7 @@ position: relative;
 .edit__titulo{
     display: flex;
     justify-content: center;
-    font-size: 70px;
+    font-size: 40px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -362,3 +367,28 @@ justify-content: center;
     background-color: rgba(0, 0, 0, 0);
 
 }
+
+.historia__edit{
+    display: grid;
+    grid-template-columns: 30% 30%;
+    grid-template-rows: 30% ;
+grid-gap: 50px;
+margin: 20px;
+padding: 20px;
+        justify-content: center;
+
+}
+
+
+.grid__inicio{
+    display: grid;
+    grid-template-columns: 570px 570px 570px;
+    grid-template-rows: 300px ;
+grid-gap: 66px;
+margin: 5px;
+padding: 4%;
+        justify-content: center;
+}
+
+
+
