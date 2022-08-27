@@ -705,12 +705,14 @@ h3 {
     width: auto;
     background-color: rgba(0, 0, 0, 0.244); }
   .footer__hijo {
+    font-size: 13px;
     display: flex;
     justify-content: center; }
   .footer__class {
     display: inline;
     justify-content: center;
     padding: 10px;
+    font-size: 15px;
     text-decoration: none;
     color: white;
     list-style: none;
