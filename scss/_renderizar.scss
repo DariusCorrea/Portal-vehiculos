@@ -208,7 +208,6 @@ border-radius: 15px;
         object-fit: cover;
         object-position: center;
         border-radius: 15px;
-        transition: all 5s;
     }
     .seccion2{
         background: rgba(255, 0, 0, 0);
@@ -223,8 +222,8 @@ border-radius: 15px;
     background-color: rgba(255, 255, 0, 0);
 }
 .seccion:hover{
-    transform:scale(1.11);
-    transition: 100ms all;
+    transform:scale(1.1);
+    transition: 300ms all;
 }
     .revista:hover{
         transform: scale(1.15);
@@ -342,7 +341,7 @@ position: relative;
 }
 
 .revista__grid img:hover{
-    transform: scale(1.1, 1.1);
+    transform: scale(1.1);
     transition: 500ms all;
 filter:grayscale(2)
 }
@@ -380,7 +379,7 @@ padding: 20px;
 /* Grid Revista */
 .grid__inicio{
     display: grid;
-    grid-template-columns: 570px 570px 570px;
+    grid-template-columns: 520px 520px 520px;
     grid-template-rows: 300px ;
 grid-gap: 76px;
 margin: 33px;
