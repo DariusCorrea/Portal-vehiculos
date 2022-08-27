@@ -300,9 +300,9 @@
                 grid-template-columns: 1fr;
                 grid-template-rows: 1fr;
                 background-color: rgba(117, 2, 225, 0);
-                padding: 40px;
-                margin: 40px;                
-                grid-gap: 40px;
+                padding: none;
+                margin: 20px;                
+                grid-gap: 5px;
                 justify-content: center;
                 border-radius: 15px;
                     
@@ -334,11 +334,8 @@
                         object-position: center;
                         border-radius: 15px;
                         transition: all 115ms;
-                        width: 270px;
+                        width: 285px;
                         height: 140px;
-                    }
-                    .seccion__numero1{
-                        margin: 20px;
                     }
                 .seccion__numero2{
                     background-color: rgba(255, 255, 0, 0);
