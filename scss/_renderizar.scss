@@ -379,12 +379,14 @@ padding: 20px;
 /* Grid Revista */
 .grid__inicio{
     display: grid;
-    grid-template-columns: 520px 520px 520px;
-    grid-template-rows: 300px ;
+    grid-template-columns: 520px 520px;
+    grid-template-rows: none;
 grid-gap: 76px;
-margin: 33px;
-padding: 4%;
+margin: 50px;
+padding: 10px;
 justify-content: center;
+flex-direction: row;
+flex-wrap: nowrap;
 }
 
 
